@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+## User Account Management Dashboard & CRUD API
+This project is a full-stack user account management system featuring a serverless backend deployed on AWS Lambda and a responsive React frontend with React-Bootstrap. It demonstrates the integration of modern cloud-native backend technologies with an elegant, user-friendly dashboard interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+# Serverless CRUD API on AWS Lambda:
 
-## Available Scripts
+User account creation with email, first name, last name, and password fields.
 
-In the project directory, you can run:
+Fully RESTful endpoints for create, read, update, and delete operations.
 
-### `npm start`
+Easy deployment using AWS Lambda Function URLs, no dedicated backend server needed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Modern React Dashboard UI:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive left navigation bar with links to User Profile, Notifications, Billing & Invoices, Plans & Add-ons.
 
-### `npm test`
+All pages have intuitive form elements laid out with React-Bootstrap for production-grade UX/UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User Profile page implements full CRUD operations interfacing with the backend API.
 
-### `npm run build`
+# Production-Ready:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Environment variables for backend configuration.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Configured CORS for secure frontend-backend communication.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clean, modular codebase structured for easy feature extension and testing.
 
-### `npm run eject`
+## Why This Project?
+This project highlights expert-level skills in:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Building serverless APIs with Python and AWS Lambda
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deploying and integrating cloud backend services with frontend frameworks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Creating scalable, maintainable React applications using industry-standard UI libraries
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Managing environment configurations and cross-origin requests
 
-## Learn More
+Delivering polished, production-grade software for real-world corporate requirements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Getting Started
+Deploy the backend APIs to AWS Lambda using the provided scripts and instructions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Configure your React app environment variables to connect to the deployed backend.
 
-### Code Splitting
+Run the React frontend locally or deploy it on Vercel/Netlify for public access.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
