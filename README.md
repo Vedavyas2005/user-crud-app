@@ -1,8 +1,8 @@
-## User Account Management Dashboard & CRUD API
+# User Account Management Dashboard & CRUD API
 This project is a full-stack user account management system featuring a serverless backend deployed on AWS Lambda and a responsive React frontend with React-Bootstrap. It demonstrates the integration of modern cloud-native backend technologies with an elegant, user-friendly dashboard interface.
 
-## Features
-# Serverless CRUD API on AWS Lambda:
+# Features
+## Serverless CRUD API on AWS Lambda:
 
 User account creation with email, first name, last name, and password fields.
 
@@ -10,7 +10,7 @@ Fully RESTful endpoints for create, read, update, and delete operations.
 
 Easy deployment using AWS Lambda Function URLs, no dedicated backend server needed.
 
-# Modern React Dashboard UI:
+## Modern React Dashboard UI:
 
 Responsive left navigation bar with links to User Profile, Notifications, Billing & Invoices, Plans & Add-ons.
 
@@ -18,7 +18,7 @@ All pages have intuitive form elements laid out with React-Bootstrap for product
 
 User Profile page implements full CRUD operations interfacing with the backend API.
 
-# Production-Ready:
+## Production-Ready:
 
 Environment variables for backend configuration.
 
@@ -26,7 +26,7 @@ Configured CORS for secure frontend-backend communication.
 
 Clean, modular codebase structured for easy feature extension and testing.
 
-## Why This Project?
+# Why This Project?
 This project highlights expert-level skills in:
 
 Building serverless APIs with Python and AWS Lambda
