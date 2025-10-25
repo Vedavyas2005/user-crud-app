@@ -1,6 +1,11 @@
 # User Account Management Dashboard & CRUD API
 This project is a full-stack user account management system featuring a serverless backend deployed on AWS Lambda and a responsive React frontend with React-Bootstrap. It demonstrates the integration of modern cloud-native backend technologies with an elegant, user-friendly dashboard interface.
 
+# Deployment
+Deployed the frontend react-bootstrap on vercel
+Connected the backend to AWS Lambda
+## Link for the project: https://user-crud-app-khaki.vercel.app/profile
+
 # Features
 ## Serverless CRUD API on AWS Lambda:
 
