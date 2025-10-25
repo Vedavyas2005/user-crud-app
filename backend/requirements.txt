@@ -1,0 +1,4 @@
+fastapi
+mangum
+pydantic==1.10.14
+email-validator
